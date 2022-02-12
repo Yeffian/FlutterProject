@@ -32,15 +32,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final List<Color> _colors = {
-    Colors.purple,
-    Colors.red,
-    Colors.blue,
-    Colors.teal,
-    Colors.pink,
-    Colors.orange
-  } as List<Color>;
-
   Color? selectedColor;
 
   void _setColor(Color color) async {
